@@ -1,0 +1,105 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(231, 74, 68));
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.animate-charcter
+{
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-size: 30px;
+  margin-top: 12px;
+
+  text-align: center;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 150% center;
+  }
+}
+
+.container {
+    max-width: 955px;
+    border: 2px solid black;
+    border-radius: 16px;
+    margin: auto;
+    height: 60vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+
+}
+
+.message {
+    background-color: rgb(245, 170, 170);
+    width: 30%;
+    padding: 12px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.left {
+    float: left;
+    clear: both;
+
+}
+
+.right {
+    float: right;
+    clear: both;
+
+}
+
+#send-container{
+    display:block;
+    margin: auto;
+    text-align: center;
+    max-width: 1085px;
+    width: 100%;
+    
+
+}
+
+#messageInp{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 7px;
+    height: 34px;
+    font-size: 22px;
+
+}
+
+.btnn{
+    width: 9%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+
+
